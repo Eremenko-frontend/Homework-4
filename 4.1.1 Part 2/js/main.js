@@ -1,45 +1,31 @@
 /*Homework 4.1 : Part 2*/
 
 var fruits = function (newapple, newcherry) {
-  
   var apple = newapple;
-  
   var cherry = newcherry;
   
   this.AddnowApple = function() {
-    
     return apple =  apple + 12;
-    
   };
   
   this.subtractionNowApple = function() {
-    
     return apple =  apple - 4;
-    
   };
   
   this.answerApple = function() {
-    
     return apple;
-    
   };
 
   this.Addnowcherry = function() {
-    
     return cherry =  cherry + 12;
-    
   };
   
   this.subtractionNowcherry = function() {
-    
     return cherry =  cherry - 4;
-    
   };
   
   this.answercherry = function() {
-    
     return cherry;
-    
   };
 
 }
