@@ -10,7 +10,7 @@ var myMassive = [
     [31, 99, 88, 77]
 ];
 
-function coordinates(oldMassive, coordY, coordX) {
+function traversalСoordinatesMassive (oldMassive, coordY, coordX) {
 
     var lengthMainMassiv = myMassive.length;//length of the main array
 
@@ -80,7 +80,7 @@ function coordinates(oldMassive, coordY, coordX) {
     return newMassive
 }
 
-console.log(coordinates(myMassive, startY, startX));
+console.log(traversalСoordinatesMassive(myMassive, startY, startX));
 
 
 
